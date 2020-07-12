@@ -2,16 +2,15 @@
 import sys
 from time import sleep
 import lyricsgenius
+from argparse import ArgumentParser
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
 class Whatsapp():
     def __init__(self, contact, message = None, times = None, song = None):
-        self.url = "https://web.whatsapp.com"
         self.contact = contact
         self.message = message
         self.times = times
@@ -19,9 +18,10 @@ class Whatsapp():
 
     def _login(self):
         self.driver = webdriver.Firefox()
-        self.driver.get(self.url)
+        self.driver.get("https://web.whatsapp.com")
         alert_text = "Open WhatsApp on your phone and scan the QR code within 300 seconds.\nThis alert will dismiss itself in 5 seconds."
         self.driver.execute_script('window.alert(arguments[0])', alert_text)
+
         try:
             alert = self.driver.switch_to.alert
             sleep(5)
@@ -57,12 +57,13 @@ class Whatsapp():
         song = genius.search_song(self.song)
         lyrics = song.lyrics.split('\n')
         lyrics_warning = f'Does the song start with,\n{lyrics[:2]}? If not, interrupt program in terminal within 20 seconds.'
+        lyrics_found = "lyrics for",self.song,"found!"
 
         if song.lyrics is None or song.lyrics == "":
             print("Song Not Found!")
             return
 
-        print("lyrics for",self.song,"found!")
+        print(lyrics_found)
         self.driver.execute_script('window.alert(arguments[0])', lyrics_warning)
 
         try:
