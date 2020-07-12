@@ -1,0 +1,167 @@
+1594544513837	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofilehi1SSP"
+1594544517516	Marionette	INFO	Listening on port 50850
+1594544517563	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594546364959	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofileuIpBrL"
+1594546368632	Marionette	INFO	Listening on port 51156
+1594546368709	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+1594546560110	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofile1GEB1J"
+1594546563965	Marionette	INFO	Listening on port 51258
+1594546564031	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+1594546638651	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofile20lx6B"
+1594546642858	Marionette	INFO	Listening on port 51394
+1594546642892	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+1594546688274	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofileBCshB4"
+1594546693241	Marionette	INFO	Listening on port 51534
+1594546693340	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Failed to fetch region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594546929737	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofile96plDw"
+1594546934694	Marionette	INFO	Listening on port 51739
+1594546934749	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+1594547162816	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofile8kBQxO"
+console.error: Region.jsm: "Failed to fetch region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+1594547168472	Marionette	INFO	Listening on port 52028
+1594547168535	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+1594547197806	Marionette	INFO	Stopped listening on port 51739
+1594547198694	Marionette	INFO	Stopped listening on port 51534
+1594547199428	Marionette	INFO	Stopped listening on port 51394
+1594547200170	Marionette	INFO	Stopped listening on port 51258
+1594547200947	Marionette	INFO	Stopped listening on port 51156
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594547471594	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofileLywXOo"
+1594547475048	Marionette	INFO	Listening on port 52220
+1594547475074	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+1594547583434	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofile8nbbBH"
+console.error: Region.jsm: "Failed to fetch region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+1594547586592	Marionette	INFO	Listening on port 52381
+1594547586614	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+1594547596335	Marionette	INFO	Stopped listening on port 52381
+1594547599019	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofileNI24L9"
+console.error: Region.jsm: "Failed to fetch region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+1594547601992	Marionette	INFO	Listening on port 52447
+1594547602014	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+1594547683860	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofilevUzZ4b"
+1594547687344	Marionette	INFO	Listening on port 52532
+1594547687354	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594548179587	Marionette	INFO	Stopped listening on port 52220
+1594548180057	Marionette	INFO	Stopped listening on port 52532
+1594548180865	Marionette	INFO	Stopped listening on port 52447
+1594548182047	Marionette	INFO	Stopped listening on port 50850
+1594548188119	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofile1p1kWq"
+1594548191043	Marionette	INFO	Listening on port 52769
+1594548191085	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://chercher.tech/vendor/bootstrap/js/bootstrap.min.js, line 6: Error: Bootstrap dropdown require Popper.js (https://popper.js.org)
+JavaScript error: https://chercher.tech/js/index9.js, line 39: TypeError: document.getElementById(...) is null
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+1594548590793	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofile7I624s"
+1594548593994	Marionette	INFO	Listening on port 53136
+1594548594105	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+2020-07-12 15:41:52.102 firefox-bin[5834:231771] warning: <NSRemoteView: 0x128e22800 com.apple.LookupViewService ((null)) LookupViewService> determined it was necessary to configure <_NSPopoverWindow: 0x123de0680> to support remote view vibrancy
+1594548715061	Marionette	INFO	Stopped listening on port 52769
+1594548725991	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofileb6c57G"
+1594548729133	Marionette	INFO	Listening on port 53234
+1594548729185	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1D0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1594548906470	Marionette	INFO	Stopped listening on port 53234
+1594548960198	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofilejJNKhG"
+1594548963275	Marionette	INFO	Listening on port 53405
+1594548963391	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594549108550	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ls/ntz_z13x3_v2gz4nv0vs67nh0000gn/T/rust_mozprofilet5Z6Da"
+1594549111516	Marionette	INFO	Listening on port 53492
+1594549111533	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.4c60d7b55c54a1f988b7.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://assets.genius.com/javascripts/compiled/bagon_desktop-d8eba31d5605432d8723.js, line 104: ApiError: 
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1594549329826	Marionette	INFO	Stopped listening on port 53492
+1594549332059	Marionette	INFO	Stopped listening on port 53405
