@@ -1,6 +1,19 @@
 # Spammer
-Spam your friends on WhatsApp! (**with permission**, of course)
+Spam your friends on WhatsApp! (**with permission**, of course)        
+Run `pip3 install -r requirements.txt` before running spammer.py (Requires selenium, firefox and lyricsgenius)    
+Update selenium and firefox in case of error
 
-Written in python3 and requires selenium and Firefox (along with geckodriver)
+## Usage 
 
+Spammer has two modes, **normal** and **lyrics**.    
+Normal mode spams a single message any given number of times.     
+While lyrics spams the lyrics of any given english song (or any song available on Genius).   
 
+## Syntax
+
+### Normal Mode
+python3 spammer.py normal -c 'Target's Whatsapp Name' -m 'Message To Spam' -t 400 
+(400 is simply an example)
+
+### Lyrics Mode
+python3 spammer.py lyrics -c 'Target's Whatsapp Name' -s 'Song Name'
