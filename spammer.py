@@ -80,7 +80,7 @@ class Whatsapp():
 
 if __name__ == '__main__':
 
-    parser = ArgumentParser(description="Just An Epic Message Spammer Ever!")    
+    parser = ArgumentParser(description="Only The Most Epic Message Spammer!")    
     subparser = parser.add_subparsers(help="available modes, Type mode name followed by -h to see mode specific arguments", dest="mode")
     lyrics_parser = subparser.add_parser('lyrics',help="lyrics spam mode")
     normal_parser = subparser.add_parser('normal',help="single message spam mode")
