@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 import sys
-from time import sleep
 import lyricsgenius
+from tqdm import tqdm
+from time import sleep
 from argparse import ArgumentParser
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -29,13 +30,10 @@ class Whatsapp():
         except:
             pass
 
-        print("Logged In")
-
     def _search_for_contact(self):
         self.wait = WebDriverWait(self.driver, 300)
         search_box = "/html/body/div[1]/div/div/div[3]/div/div[1]/div/label/div/div[2]"
         self.wait.until(EC.element_to_be_clickable((By.XPATH, search_box))).send_keys(self.contact + Keys.ENTER)
-        print("Found contact")
 
     def _send_message(self, message):
         text_box = "/html/body/div[1]/div/div/div[4]/div/footer/div[1]/div[2]/div/div[2]"
@@ -45,10 +43,11 @@ class Whatsapp():
     def single_spam(self):
         self._login()
         self._search_for_contact()
-        print("Spamming")
 
-        for i in range(self.times):
-            self._send_message(self.message)
+        with tqdm(total=self.times, file=sys.stdout, desc="Spamming") as pbar:
+            for i in range(self.times):
+                self._send_message(self.message)
+                pbar.update(1)
 
     def lyric_spam(self):
         self._login()
@@ -73,27 +72,32 @@ class Whatsapp():
         except:
             pass
 
-        print("Spamming")
+        with tqdm(total=len(lyrics), file=sys.stdout, desc="Spamming") as pbar:
+            for line in lyrics:
+                self._send_message(line)
+                pbar.update(1)
 
-        for line in lyrics:
-            self._send_message(line)
 
 if __name__ == '__main__':
 
-    parser = ArgumentParser(description="Only The Most Epic Message Spammer!")    
+    parser = ArgumentParser(description="Only The Most Epic Message Spammer!")
     subparser = parser.add_subparsers(help="available modes, Type mode name followed by -h to see mode specific arguments", dest="mode")
     lyrics_parser = subparser.add_parser('lyrics',help="lyrics spam mode")
     normal_parser = subparser.add_parser('normal',help="single message spam mode")
+
     lyrics_parser.add_argument("-c", "--contact", required=True, help="exact name of whatsapp contact")
-    normal_parser.add_argument("-c", "--contact", required=True, help="exact name of whatsapp contact")
     lyrics_parser.add_argument("-s", "--song", required=True, help="name of song which you want spammed")
+
+    normal_parser.add_argument("-c", "--contact", required=True, help="exact name of whatsapp contact")
     normal_parser.add_argument("-m", "--message", required=True, help="message to spam")
-    normal_parser.add_argument("-t", "--times", type=int, required=True, help="number of times the message should be spammed")
+    normal_parser.add_argument("-t", "--times", type=int, default=25, help="number of times the message should be spammed (default 25)")
+
     args = parser.parse_args()
 
     if args.mode == "lyrics":
         Whatsapp(contact=args.contact, song=args.song).lyric_spam()
     elif args.mode == "normal":
         Whatsapp(contact=args.contact, message=args.message, times=args.times).single_spam()
+
     else:
         parser.print_help()
