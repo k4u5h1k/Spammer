@@ -1,7 +1,8 @@
 # Spammer
 Spam your friends on WhatsApp! (**with permission**, of course)        
-Run `pip3 install -r requirements.txt` before running spammer.py         
-Requires selenium, firefox and lyricsgenius        
+Run `pip3 install -r requirements.txt` before running spammer.py.
+Get geckodriver for your platform.
+Requires selenium, geckodriver, firefox and lyricsgenius        
 
 ## Usage 
 
