@@ -20,4 +20,5 @@ python3 spammer.py normal -c 'Target's Whatsapp Name' -m 'Message To Spam' -t 40
 python3 spammer.py lyrics -c 'Target's Whatsapp Name' -s 'Song Name'
 
 ## Screenshot
-![IMG_92BD6F6FDA3E-1](https://user-images.githubusercontent.com/59250093/114888511-edc52c00-9e26-11eb-92b6-f9373ce37f16.jpeg)
+![Screenshot 2021-04-16 at 11 24 09 PM](https://user-images.githubusercontent.com/59250093/115064692-da8b8c80-9f0a-11eb-9440-a5d7da2662e4.png)
+![Screenshot 2021-04-16 at 11 25 16 PM](https://user-images.githubusercontent.com/59250093/115064818-0444b380-9f0b-11eb-9a82-0478df1a8b75.png)
