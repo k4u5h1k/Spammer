@@ -13,11 +13,11 @@ Lyrics mode spams the lyrics of any given song - if available on Genius - with e
 ## Syntax
 
 ### Normal Mode
-python3 spammer.py normal -c 'Target's Whatsapp Name' -m 'Message To Spam' -t 400           
+`python3 spammer.py normal -c 'Target's Whatsapp Name' -m 'Message To Spam' -t 400`    
 (400 is simply an example)
 
 ### Lyrics Mode
-python3 spammer.py lyrics -c 'Target's Whatsapp Name' -s 'Song Name'
+`python3 spammer.py lyrics -c 'Target's Whatsapp Name' -s 'Song Name'`
 
 ## Screenshot
 ![Screenshot 2021-04-16 at 11 24 09 PM](https://user-images.githubusercontent.com/59250093/115064692-da8b8c80-9f0a-11eb-9440-a5d7da2662e4.png)
