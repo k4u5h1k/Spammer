@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import re
 import sys
 import lyricsgenius
 from tqdm import tqdm
@@ -53,10 +54,10 @@ class Whatsapp():
         self._login()
         self._search_for_contact()
         genius = lyricsgenius.Genius("G23EEDCAnKeA-0vI-sIzjw3LfXTnxOzaWuKCJ6100G3-0CPT_vy3X5tcw_81ByOw")
-        song = genius.search_song(self.song)
+        song = genius.search_song(re.sub(' ', '-', self.song))
         lyrics = song.lyrics.split('\n')
         lyrics_warning = f'Does the song start with,\n{lyrics[:2]}? If not, interrupt program in terminal within 20 seconds.'
-        lyrics_found = "lyrics for",self.song,"found!"
+        lyrics_found = f"lyrics for {self.song} found!"
 
         if song.lyrics is None or song.lyrics == "":
             print("Song Not Found!")
